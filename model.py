@@ -95,7 +95,7 @@ def train(model, netIn, netOut):
     checkpoint = ModelCheckpoint(fileName, monitor='loss', verbose=0, save_best_only=True, mode='min')
     callback = [checkpoint]
     
-    model.fit(netIn, netOut, epochs=500, batch_size=128, callbacks=callback)
+    model.fit(netIn, netOut, epochs=250, batch_size=128, callbacks=callback)
 
 
 tf.debugging.set_log_device_placement(True)
