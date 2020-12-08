@@ -7,8 +7,10 @@
 
 <h3 align='center'>Piano music generator based on LSTM neural network</h3>
 
-#name
-#description
+Sonar is a project resulted from Machine learning case study :computer:. Sonar project's idea is motivated by an article
+<a href='https://medium.com/@ageitgey/machine-learning-is-fun-part-2-a26a10b68df3'>"Machine learning is fun part2"</a>
+from medium by <a href='https://medium.com/@ageitgey'>Adam Geitgey</a> :raised_hands:.
+
 #requirments
 #results images
 #future
