@@ -19,20 +19,54 @@ can be generated from text file using RNN. So i thought that if i extract notes 
 - [Pickle](https://docs.python.org/3/library/pickle.html)
 - [Tqdm](https://tqdm.github.io/)
 
-#results images
-#future
-#References used in this material
-
-## Requirments /cause of compatibility issues used older versions/
+## Requirements /cause of compatibility issues used older versions/
 - [Musescore](https://musescore.org/en)
 - [CUDA toolkit version 10.1](https://developer.nvidia.com/cuda-downloads)
 - [Nvidia GPU driver version 486.31](https://www.nvidia.com/Download/driverResults.aspx/147971/tr-tr)/Studio driver/
 
+## Code examples
 
-#Project Title
-#Motivation
-#Build status
-#Code style --- standard
-#Tech used
-#Results
-#License
+```sh
+$ python sonar.py -T
+```
+<img src="https://github.com/BaasanbayarOverflow/LSTM-music-generator/blob/master/images/example2.png" alt="example">
+
+```sh
+$ python sonar.py -G
+```
+<img src="https://github.com/BaasanbayarOverflow/LSTM-music-generator/blob/master/images/example1.png" alt="example">
+
+## Results
+
+1. Result of 1 epoch
+<img src="https://github.com/BaasanbayarOverflow/LSTM-music-generator/blob/master/images/one_epoch.png" alt="note">
+
+2. Result of 250 epoch
+<img src="https://github.com/BaasanbayarOverflow/LSTM-music-generator/blob/master/images/250_epoch.png" alt="note">
+
+3. Result of 500 epoch
+<img src="https://github.com/BaasanbayarOverflow/LSTM-music-generator/blob/master/images/500_epoch.png" alt="note">
+
+4. Result of 1 epoch after added 10 new midi file
+<img src="https://github.com/BaasanbayarOverflow/LSTM-music-generator/blob/master/images/one_epoch_data.png" alt="note">
+
+5. Result of 250 epoch after added 10 new midi file
+<img src="https://github.com/BaasanbayarOverflow/LSTM-music-generator/blob/master/images/250_epoch_data.png" alt="note">
+
+6. One of music files note sheet used to feed NN
+<img src="https://github.com/BaasanbayarOverflow/LSTM-music-generator/blob/master/images/yogore.png" alt="note">
+
+### Features
+
+- [ ] Capability of working with mp3 files
+- [ ] Add more music instruments
+- [ ] Create more beautiful musics
+
+## Materials used in this project
+
+- [Machine_Learning_is_fun](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471)
+- [Write_decent_readme](https://github.com/akashnimare/foco/blob/master/readme.md)
+- [Mastering_Machine_Learning_with_Python_in_Six_Steps](https://www.amazon.com/Mastering-Machine-Learning-Python-Steps/dp/1484228650#:~:text=Master%20machine%20learning%20with%20Python,maximum%20of%20six%20steps%20away.)
+- [How to Generate Music using a LSTM Neural Network in Keras](https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5)
+- [LSTM](https://medium.com/@divyanshu132/lstm-and-its-equations-5ee9246d04af)
+- [Generate_music_using_Deep_Learning](https://github.com/gauravtheP/Music-Generation-Using-Deep-Learning)
